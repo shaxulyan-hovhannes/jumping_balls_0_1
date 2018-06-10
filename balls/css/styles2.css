@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+html {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  border: 1px solid black;
+  background-color: black;
+  overflow: hidden;
+}
+
+#ball {
+  position: relative;
+  margin: 0.1vw auto;
+  text-align: center;
+  border: 0.2vw solid black;
+  background-color: blue;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 43vw;
+  left: 0vw;
+  z-index: 100;
+}
+
+#speedIncrease {
+  position: relative;
+  width: 10%;
+  top: 46.4vw;
+  left: 0.1vw;
+  background-color: red;
+  border: 0.2vw outset black;
+  padding: 1vw;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100
+}
+
+#speedDecrease {
+  position: relative;
+  width: 10%;
+  top: 39.2vw;
+  left: 89.8vw;
+  background-color: orange;
+  border: 0.2vw outset black;
+  padding: 1vw;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100;
+}
